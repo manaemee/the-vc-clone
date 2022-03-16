@@ -26,9 +26,13 @@ display:flex ;
 max-width: 95%;
 margin-top:10vh ;
 overflow: scroll;
+flex-wrap: nowrap;
 `;
 const Hero = styled.div`
-min-width:25% ;
+
+
+min-width:330px;
+max-width:25% ;
 padding: 16px;
 background-color:${props=>props.theme.boxColor} ;
 border-radius:20px ;
