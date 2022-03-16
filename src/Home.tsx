@@ -2,6 +2,9 @@ import styled from "styled-components";
 import { faCoins} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Lookup from "./Lookup";
+
+
+
 const Container = styled.div`
 
 `;
@@ -72,7 +75,10 @@ display:flex;
 flex-direction:column ;
 justify-content:space-between ;
 `;
+
+
 function Home(){
+  
     return (
         <Container>
             <Header>
